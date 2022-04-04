@@ -27,7 +27,6 @@ vector<int> insert_sort(vector<int>& A)
 
 
 // TEST
-
 // int main()
 // {
 //     vector<int> test = {3, 2, 5, 1};
