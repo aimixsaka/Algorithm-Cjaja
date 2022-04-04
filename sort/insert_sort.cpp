@@ -25,12 +25,15 @@ vector<int> insert_sort(vector<int>& A)
     return A;
 }
 
-int main()
-{
-    vector<int> test = {3, 2, 5, 1};
-    for (int a : insert_sort(test))
-    {
-        cout << a << "\n";
-    }
-    return 0;
-}
+
+// TEST
+
+// int main()
+// {
+//     vector<int> test = {3, 2, 5, 1};
+//     for (int a : insert_sort(test))
+//     {
+//         cout << a << "\n";
+//     }
+//     return 0;
+// }
