@@ -2,6 +2,7 @@
 #include <iostream>
 using namespace std;
 
+// O(n^2)
 vector<int> insert_sort(vector<int>& A)
 {
     for (int j = 1; j < A.size(); j++)
@@ -26,6 +27,7 @@ vector<int> insert_sort(vector<int>& A)
 }
 
 // use recursive to relalize insert_sort
+// O(n^2)
 void insert_sort_recursive(vector<int>& A, int length)
 {
     if (length > 1)
